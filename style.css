@@ -10,8 +10,8 @@ html, body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #f9f9f6;
     color: #333;
-    padding: 10px;
-    line-height: 1.4; /* Slightly reduced line height */
+    padding: 5px;
+    line-height: 1.2; 
 }
 
 /* Flexbox container */
@@ -30,56 +30,57 @@ header {
 }
 
 header h1 {
-    font-size: 2em;
-    margin-bottom: 5px;
+    font-size: 1.4em; 
+    margin-bottom: 3px;
 }
 
 header .subtitle {
-    font-size: 1.2em;
+    font-size: 0.9em; 
     margin-bottom: 0px;
 }
 
 header .intro {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 1.2em; /* Reduced font size */
-    text-align: justify;
+    max-width: 95%; 
+    margin: 5px auto; 
+    font-size: 1em; 
+    text-align: justify; 
+    padding: 5px; 
 }
 
 .content-section {
-    margin: 10px 0;
-    padding: 0 10px;
+    margin: 5px 0; 
+    padding: 0 5px; 
 }
 
 h2 {
-    font-size: 1.4em; /* Reduced font size */
+    font-size: 1.1em; 
     color: #333;
     border-bottom: 1px solid #826E7F;
     display: inline-block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .education-content, .certificates-content, .project {
     background-color: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 5px; 
+    margin-bottom: 5px; 
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 .project h3 {
-    font-size: 1.6em; /* Reduced font size */
-    margin-bottom: 10px;
+    font-size: 0.9em; 
+    margin-bottom: 5px;
 }
 
 .education-content p, .project p, .certificates-content p {
-    font-size: 1.2em; /* Reduced font size */
+    font-size: 0.9em; 
 }
 
 a {
     color: #3498db;
     text-decoration: none;
-    font-size: 0.8em; /* Reduced font size */
+    font-size: 0.8em;
 }
 
 a:hover {
@@ -88,34 +89,34 @@ a:hover {
 
 #contact {
     margin-top: auto;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #contact p {
-    font-size: 1.4em; /* Reduced font size */
+    font-size: 0.9em; 
 }
 
 /* Contact Form Styling */
 form {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 label {
-    font-size: 1.2em; /* Reduced font size */
+    font-size: 1em; 
     margin-bottom: 5px;
     display: block;
 }
 
 input, textarea {
     width: 100%;
-    padding: 8px;
-    font-size: 1.1em; /* Reduced font size */
+    padding: 5px;
+    font-size: 0.9em; 
     margin-bottom: 10px;
 }
 
 button {
-    padding: 8px 15px;
-    font-size: 1.1em; /* Reduced font size */
+    padding: 5px 10px;
+    font-size: 0.9em; 
     background-color: #3498db;
     color: #fff;
     border: none;
@@ -131,15 +132,14 @@ footer {
     padding: 5px;
     background-color: #826E7F;
     color: #fff;
-    font-size: 1.4em; /* Reduced font size */
-    margin-top: 10px;
+    font-size: 1em; 
+    margin-top: 5px;
     width: 100%;
-    position: relative;
 }
 
 .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     margin: 10px 0;
@@ -150,35 +150,59 @@ footer {
 /* Large devices (≥ 992px) */
 @media (max-width: 992px) {
     header h1 {
-        font-size: 2em;
+        font-size: 1.2em;
     }
 
     header .intro {
-        font-size: 1.3em; /* Reduced font size */
+        font-size: 0.9em;
     }
 
     h2 {
-        font-size: 1.4em;
+        font-size: 1em;
     }
 
     .profile-img {
-        width: 200px;
-        height: 200px;
+        width: 3500px;
+        height: 350px;
     }
 }
 
 /* Medium devices (≥ 768px) */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 1.6em;
+        font-size: 1em;
     }
 
     header .intro {
-        font-size: 1.1em; /* Reduced font size */
+        font-size: 0.8em;
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 0.9em;
+    }
+
+    .profile-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
+
+/* Small devices (≥ 576px) */
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 0.9em;
+    }
+
+    header .intro {
+        font-size: 0.7em;
+    }
+
+    h2 {
+        font-size: 0.8em;
     }
 
     .profile-img {
@@ -187,30 +211,6 @@ footer {
     }
 
     footer {
-        font-size: 1.2em;
-    }
-}
-
-/* Small devices (≥ 576px) */
-@media (max-width: 576px) {
-    header h1 {
-        font-size: 1.4em;
-    }
-
-    header .intro {
-        font-size: 1.0em; /* Reduced font size */
-    }
-
-    h2 {
-        font-size: 1.1em;
-    }
-
-    .profile-img {
-        width: 100px;
-        height: 100px;
-    }
-
-    footer {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
