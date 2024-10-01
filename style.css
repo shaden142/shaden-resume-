@@ -10,8 +10,8 @@ html, body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #f9f9f6;
     color: #333;
-    padding: 20px;
-    line-height: 1.8;
+    padding: 10px;
+    line-height: 1.4; /* Slightly reduced line height */
 }
 
 /* Flexbox container */
@@ -26,61 +26,60 @@ header {
     background-color: #826E7F;
     color: #fff;
     text-align: center;
-    padding: 15px 0; 
+    padding: 2px 0;
 }
 
 header h1 {
-    font-size: 5em; 
-    margin-bottom: 20px;
+    font-size: 2em;
+    margin-bottom: 5px;
 }
 
 header .subtitle {
-    font-size: 2.8em; 
+    font-size: 1.2em;
     margin-bottom: 0px;
 }
 
 header .intro {
-    max-width: 2000px;
+    max-width: 800px;
     margin: 0 auto;
-    font-size: 2.8em; 
+    font-size: 1.2em; /* Reduced font size */
     text-align: justify;
 }
 
 .content-section {
-    margin: 40px 0;
-    padding: 0 20px;
+    margin: 10px 0;
+    padding: 0 10px;
 }
 
 h2 {
-    font-size: 2.7em;
+    font-size: 1.4em; /* Reduced font size */
     color: #333;
-    border-bottom: 2px solid #826E7F;
+    border-bottom: 1px solid #826E7F;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .education-content, .certificates-content, .project {
     background-color: #fff;
-    padding: 25px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    
 }
 
-.project h3{
-    font-size: 2.5em;
-    margin-bottom: 15px;
+.project h3 {
+    font-size: 1.6em; /* Reduced font size */
+    margin-bottom: 10px;
 }
 
 .education-content p, .project p, .certificates-content p {
-    font-size: 2em;
+    font-size: 1.2em; /* Reduced font size */
 }
 
 a {
     color: #3498db;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 0.8em; /* Reduced font size */
 }
 
 a:hover {
@@ -89,34 +88,34 @@ a:hover {
 
 #contact {
     margin-top: auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #contact p {
-    font-size: 2.4em;
+    font-size: 1.4em; /* Reduced font size */
 }
 
 /* Contact Form Styling */
 form {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 label {
-    font-size: 1.8em;
-    margin-bottom: 10px;
+    font-size: 1.2em; /* Reduced font size */
+    margin-bottom: 5px;
     display: block;
 }
 
 input, textarea {
     width: 100%;
-    padding: 10px;
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 1.1em; /* Reduced font size */
+    margin-bottom: 10px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 1.5em;
+    padding: 8px 15px;
+    font-size: 1.1em; /* Reduced font size */
     background-color: #3498db;
     color: #fff;
     border: none;
@@ -129,21 +128,21 @@ button:hover {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     background-color: #826E7F;
     color: #fff;
-    font-size: 2.5em;
-    margin-top: 20px;
+    font-size: 1.4em; /* Reduced font size */
+    margin-top: 10px;
     width: 100%;
     position: relative;
 }
 
 .profile-img {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 /* Media Queries for Responsiveness */
@@ -151,67 +150,67 @@ footer {
 /* Large devices (≥ 992px) */
 @media (max-width: 992px) {
     header h1 {
-        font-size: 4em;
+        font-size: 2em;
     }
 
     header .intro {
-        font-size: 2.5em;
+        font-size: 1.3em; /* Reduced font size */
     }
 
     h2 {
-        font-size: 2.0em;
+        font-size: 1.4em;
     }
 
     .profile-img {
-        width: 500px;
-        height: 500px;
+        width: 200px;
+        height: 200px;
     }
 }
 
 /* Medium devices (≥ 768px) */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 3em;
-    }
-
-    header .intro {
         font-size: 1.6em;
     }
 
+    header .intro {
+        font-size: 1.1em; /* Reduced font size */
+    }
+
     h2 {
-        font-size: 2.0em;
+        font-size: 1.2em;
     }
 
     .profile-img {
-        width: 300px;
-        height: 300px;
+        width: 150px;
+        height: 150px;
     }
 
     footer {
-        font-size: 2em;
+        font-size: 1.2em;
     }
 }
 
 /* Small devices (≥ 576px) */
 @media (max-width: 576px) {
     header h1 {
-        font-size: 2.5em;
-    }
-
-    header .intro {
         font-size: 1.4em;
     }
 
+    header .intro {
+        font-size: 1.0em; /* Reduced font size */
+    }
+
     h2 {
-        font-size: 2em;
+        font-size: 1.1em;
     }
 
     .profile-img {
-        width: 250px;
-        height: 250px;
+        width: 100px;
+        height: 100px;
     }
 
     footer {
-        font-size: 1.8em;
+        font-size: 1em;
     }
 }
